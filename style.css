@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************************
+Page background
+****************************/
+header {
+
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.top-banner {
+  width: 100%;
+
+}
+
+/******************************
+Sidebar styling
+******************************/
+
+.location {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5F6274;
+}
+
+.sidebar {
+  outline: solid 2px black;
+  float: left;
+  margin: 5% 0 0 10%;
+  padding: 1%;
+  width: 15%;
+}
+
+.summary {
+  color: #BDC1C1;
+  font-family: serif;
+  font-weight: 400;
+  padding: 5%;
+}
+
+.search-menu {
+  border-top: solid 2px #EFEFEF;
+  padding: 10% 0 8% 5%;
+  font-weight: bold;
+  color: #BDC1C1;
+}
+
+.search-box {
+  margin-top: 8%;
+  padding: 3%;
+}
+/************************************
+Blog posts
+************************************/
+
+.article-title {
+  color: #39474E;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.article-author {
+    color: #5F6274;
+    font-family: serif;
+    font-size: 25px;
+    font-style: italic;
+    padding: 3%;
+
+}
+
+.article-summary {
+  padding: 2%;
+}
+
+
+.blog-topics {
+  margin: 5% 0 0 0;
+  float: right;
+  width: 65%;
+
+}
