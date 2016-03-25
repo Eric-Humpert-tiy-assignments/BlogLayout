@@ -67,8 +67,6 @@ body {
 Sidebar styling
 ******************************/
 
-
-
 .location {
   font-size: 20px;
   font-weight: bold;
@@ -82,8 +80,8 @@ Sidebar styling
 	border: solid 5px white;
 	border-radius: 100%;
 	top: -65%;
-
 }
+
 .sidebar {
 	position: relative;
   float: left;
@@ -111,6 +109,7 @@ Sidebar styling
   margin-top: 8%;
   padding: 3%;
 }
+
 /************************************
 Blog posts
 ************************************/
@@ -131,7 +130,6 @@ Blog posts
 }
 
 .article-summary {
-
   padding: 2%;
 }
 
@@ -140,26 +138,51 @@ Blog posts
   margin: 5% 0 0 0;
   float: right;
   width: 65%;
-
 }
+
+/****************************
+Sidebox
+****************************/
 
 .twitter {
 	background-color: #FFF;
 	border-radius: 3px;
-	border: solid 1px #FAFAFA;
+	border: solid 1px #E0E6F0;
 	position: absolute;
 	right: 0%;
 	bottom: 5%;
+	width: 35%;
 }
 
 .alert {
 	color: #626262;
 	font-weight: bold;
 	padding: 2%;
-	border-bottom: solid 1px #FAFAFA;
+	border-bottom: solid 1px #E0E6F0;
+}
+
+.exit {
+	float: right;
 }
 
 .emblem {
-	width: 8%;
+	float: left;
+	width: 30px;
+	padding: 1%;
+}
 
+.loc-name {
+	font-size: 15px;
+	float: left;
+	padding: 1%;
+	position: relative;
+}
+
+.loc-title {
+	color: #626262;
+	font-weight: bold;
+}
+
+.loc-name {
+	color: #B9B9B9;
 }
