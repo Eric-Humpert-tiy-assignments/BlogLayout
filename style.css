@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 /****************************
 Page background
 ****************************/
@@ -83,12 +87,10 @@ Sidebar styling
 }
 
 .sidebar {
-	outline: solid 1px blue;
 	position: relative;
   float: left;
-  margin: 5% 0 0 10%;
   padding: 1%;
-  width: 15%;
+  width: 30%;
 }
 
 .summary {
@@ -134,13 +136,12 @@ Blog posts
 }
 
 .blog {
-	position: absolute;
-	width: 950px;
+	margin: 10px auto;
+	width: 750px;
 }
 
 .blog-topics {
-	outline: solid 1px red;
-	position: relative;
+	float: right;
   margin: 40px auto;
 	overflow: auto;
 	width: 70%;
@@ -151,13 +152,13 @@ Sidebox
 ****************************/
 
 .twitter {
-	outline: solid 2px green;
 	background-color: #FFF;
 	border-radius: 3px;
 	border: solid 1px #E0E6F0;
-	position: absolute;
+	position: fixed;
 	right: 0%;
 	bottom: 5%;
+	width: 22%;
 }
 
 .alert {
