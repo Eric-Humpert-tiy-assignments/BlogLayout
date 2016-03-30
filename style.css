@@ -79,10 +79,11 @@ Sidebar styling
 	margin: 0 0 0 20%;
 	border: solid 5px white;
 	border-radius: 100%;
-	top: -65%;
+	top: -55%;
 }
 
 .sidebar {
+	outline: solid 1px blue;
 	position: relative;
   float: left;
   margin: 5% 0 0 10%;
@@ -121,23 +122,28 @@ Blog posts
 }
 
 .article-author {
-    color: #5F6274;
-    font-family: serif;
-    font-size: 25px;
-    font-style: italic;
-    padding: 3%;
-
+  color: #5F6274;
+  font-family: serif;
+	font-size: 25px;
+  font-style: italic;
+  padding: 3%;
 }
 
 .article-summary {
   padding: 2%;
 }
 
+.blog {
+	position: absolute;
+	width: 950px;
+}
+
 .blog-topics {
+	outline: solid 1px red;
 	position: relative;
-  margin: 5% 0 0 0;
-  float: right;
-  width: 65%;
+  margin: 40px auto;
+	overflow: auto;
+	width: 70%;
 }
 
 /****************************
@@ -145,13 +151,13 @@ Sidebox
 ****************************/
 
 .twitter {
+	outline: solid 2px green;
 	background-color: #FFF;
 	border-radius: 3px;
 	border: solid 1px #E0E6F0;
 	position: absolute;
 	right: 0%;
 	bottom: 5%;
-	width: 35%;
 }
 
 .alert {
@@ -162,6 +168,8 @@ Sidebox
 }
 
 .exit {
+	background-color: #FFF;
+	border-style: none;
 	float: right;
 }
 
